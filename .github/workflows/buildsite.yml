@@ -15,10 +15,9 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Create pages
-      run: |
-        aphra build > aphra.log 2>&1
+      run: aphra build
 
-    - name: Archive perlanet logs
+    - name: Archive aphra logs
       uses: actions/upload-artifact@v3
       with:
         name: aphra.log
