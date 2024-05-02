@@ -2,21 +2,43 @@
 
 ## A simple sitebuilder in Perl
 
-In a few weeks time we'll have some interesting and useful content here.
-Please keep checking back.
+Aphra is a simple yet powerful static site builder, developed in Perl. It
+helps you create web pages seamlessly from templates, offering an efficient
+way to generate dynamic static websites from structured content. This site
+provides all the information you need to get started with Aphra, as well as
+additional resources to help you along your journey.
 
-In the meantime, you might be interested in
-[this blog post](https://perlhacks.com/2017/09/yak-shaving-aphra-behn/)
-about the project.
+## Why Aphra?
 
-If you're a web design company or a digital marketing company or anyone else
-who thinks it's a good idea to cold-call people who have just registered a
-domain, then don't bother wasting your time. Cold-calling is a terrible way
-to find new customers and we have a strict policy of not doing business with
-cold-callers.
+Aphra stands out for its simplicity and flexibility. Here are some key
+features:
 
-To be clear, if we have never done business with you and you call us trying
-to sell us any kind of service - you are a cold caller and you are wasting
-everyone's time.
+* **Template Toolkit Integration:** Aphra uses the Template Toolkit to process
+templates, allowing for a robust templating system that can incorporate
+layouts, fragments, and more.
+* **Markdown Support:** Aphra seamlessly integrates with Markdown via the
+Pandoc tool, converting content into HTML or any other format Pandoc supports.
+* **Site Configuration:** You can store site-wide settings in a convenient
+`site.yml` file, making global data available across all templates.
+* **Front Matter:** Aphra templates can include a front matter section in YAML
+format, providing page-specific data directly accessible within each template.
+* **Server:** Aphra includes a simple serve command to launch a local server
+for testing and previewing your site.
+* **Customizable Extensions:** Easily manage which file extensions Aphra
+recognises as templates or content, allowing for a versatile and adaptive
+workflow.
 
-And to summarise: **DO NOT PHONE US ABOUT THIS DOMAIN**.
+## Getting Started
+
+1. **Build Your Site:** Start by organizing your content into a directory
+tree, including your templates, fragments, and layouts. Then, run `aphra
+build` to process the files and generate a static website.
+2. **Preview with `serve`:** To preview your work, use the `serve` command
+to launch a local HTTP server and check the output files directly in your
+browser.
+3. **Configuration Options:** Modify how Aphra works by using various
+command-line options, such as source, fragments, layouts, and more. These
+help tailor the tool to your specific workflow.
+4. **Documentation:** For further information on Aphra's commands, options,
+and template processing, explore the detailed documentation available on
+this site.
