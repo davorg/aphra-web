@@ -28,6 +28,14 @@ for testing and previewing your site.
 recognises as templates or content, allowing for a versatile and adaptive
 workflow.
 
+## Installation
+
+You can get hold of Aphra:
+
+* From [CPAN](https://metacpan.org/dist/App-Aphra)
+* From [GitHub](https://github.com/davorg-cpan/app-aphra/releases)
+* From [Docker Hub](https://hub.docker.com/repository/docker/davorg/aphra)
+
 ## Getting Started
 
 1. **Build Your Site:** Start by organizing your content into a directory
