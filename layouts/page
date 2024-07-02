@@ -42,10 +42,14 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <main>
-      <div class="container-fluid py-5">
-        <div class="row">
-          <div class="col-6 mx-auto">
+      <div class="container-fluid">
+        <div class="row py-5 justify-content-center">
+          <div class="col-md-6">
             [% content %]
+          </div>
+          <div class="col-md-3">
+            <p><img class="aphra-pic" src="/img/aphra.webp"></p>
+            <p><a href="/aphra/">Aphra Behn</a><br>(14 December 1640? – 16 April 1689)</p> 
           </div>
         </div>
       </div>
