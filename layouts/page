@@ -55,7 +55,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="bg-light text-end py-3 pe-3 border-top border-secondary">
       <p>&copy; 2024 Magnum Solutions Ltd.<br>Made by <a href="https://links.davecross.co.uk/">Dave Cross</a> / Code <a href="https://github.com/davorg-cpan/app-aphra">on GitHub</a></p>
     </footer>
 
