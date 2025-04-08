@@ -1,0 +1,12 @@
+[% nav = page.nav OR site.nav;
+   IF nav -%]
+       <div class="collapse navbar-collapse" id="navbar">
+         <ul class="navbar-nav me-auto mb-2">
+[%   FOR item IN nav -%]
+           <li class="nav-item">
+             <a class="nav-link" href="[% item.link %]">[% item.text %]</a>
+           </li>
+[%   END -%]
+         </ul>
+      </div>
+[% END %]
