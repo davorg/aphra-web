@@ -1,4 +1,5 @@
 [% TAGS star -%]
+
 # Documentation for `aphra`
 
 ## NAME
