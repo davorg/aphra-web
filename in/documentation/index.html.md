@@ -48,7 +48,7 @@ works.
     created in the **target** directory. The default value for this option is "in".
 
     ```
-    $ aphra --in some/other/directory
+    $ aphra --source some/other/directory
     ```
 
 - **fragments**
